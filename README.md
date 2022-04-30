@@ -1,12 +1,11 @@
-
+### Description
+typenaming is **a static analyzer** that will prevent you from using the "Type" suffix in type names.
+### Example
 _Bad_
 ```golang
 type UserType struct {}
 ```
-\
-Linter will ask you to trim suffix "Type" from struct name.\
-\
-\
+
 _Good_
 ```golang
 type User struct {}
