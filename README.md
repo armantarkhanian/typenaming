@@ -1,16 +1,13 @@
-### Hi there 👋
+#### Use cases
 
-<!--
-**typenaming/typenaming** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+_Bad_
+```golang
+type UserType struct {}
+```
 
-Here are some ideas to get you started:
+Then **typenaming** will ask you to trim suffix "Type" from struct name.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+_Good_
+```golang
+type User struct {}
+```
