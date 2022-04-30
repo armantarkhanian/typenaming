@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/typenaming/typenaming/pkg/analyzer"
+
 	"golang.org/x/tools/go/analysis/singlechecker"
 )
 
