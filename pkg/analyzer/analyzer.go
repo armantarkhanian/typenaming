@@ -37,18 +37,6 @@ func run(pass *analysis.Pass) (interface{}, error) {
 		pass.Report(analysis.Diagnostic{
 			Pos:     typeDecl.Name.End() - 4,
 			Message: "do not use suffix `Type` in Go",
-			SuggestedFixes: []analysis.SuggestedFix{
-				{
-					Message: "trim suffix `Type`",
-					TextEdits: []analysis.TextEdit{
-						{
-							Pos:     typeDecl.Name.End() - 4,
-							End:     typeDecl.Name.End(),
-							NewText: []byte{},
-						},
-					},
-				},
-			},
 		})
 	})
 
