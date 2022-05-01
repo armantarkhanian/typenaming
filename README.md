@@ -1,5 +1,5 @@
 ### Description
-typenaming is **a static analyzer** that will prevent you from using the ugly "Type" suffix in type names.
+typenaming is **a static analyzer** that will prevent you from using the ugly "Type" suffix in type names. It's written for educational purposes.
 
 _Bad_
 ```golang
@@ -23,4 +23,3 @@ typenaming ./...
 ```bash
 typenaming main.go
 ```
-It can also be integrated into [golangci-lint](https://github.com/golangci/golangci-lint)
