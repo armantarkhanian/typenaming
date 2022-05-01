@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/typenaming/typenaming/pkg/analyzer"
+	"github.com/armantarkhanian/typenaming/pkg/analyzer"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

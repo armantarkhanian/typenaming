@@ -1,4 +1,4 @@
-module github.com/typenaming/typenaming
+module github.com/armantarkhanian/typenaming
 
 go 1.18
 
