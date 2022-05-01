@@ -1,6 +1,6 @@
 ### Description
-typenaming is **a static analyzer** that will prevent you from using the "Type" suffix in type names.
-### Example
+typenaming is **a static analyzer** that will prevent you from using the ugly "Type" suffix in type names.
+
 _Bad_
 ```golang
 type UserType struct {}
@@ -10,3 +10,17 @@ _Good_
 ```golang
 type User struct {}
 ```
+### Install
+```bash
+go install github.com/typenaming/typenaming@v1.1.1
+```
+### Usage
+##### For whole directory
+```bash
+typenaming ./...
+```
+##### For certain file
+```bash
+typenaming main.go
+```
+It can also be integrated into [golangci-lint](https://github.com/golangci/golangci-lint)
