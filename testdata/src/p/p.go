@@ -1,5 +1,5 @@
 package p
 
-type UserType struct{} // want "do not use suffix `Type` in Go"
+type UserType struct{} // want "trim suffix `Type` from type name"
 
-type userType string // want "do not use suffix `Type` in Go"
+type userType string // want "trim suffix `Type` from type name"
