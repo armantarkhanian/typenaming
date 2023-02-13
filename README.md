@@ -14,7 +14,7 @@ type User struct {}
 ```
 ### Install
 ```bash
-go install github.com/armantarkhanian/typenaming@v1.1.1
+go install github.com/typenaming/typenaming@v1.1.1
 ```
 ### Usage
 ##### For whole directory
